@@ -1,30 +1,29 @@
 import 'package:flutter/material.dart';
 
-// Enum para os tamanhos do botão
-enum ActionButtonSize {
-  large,
-  medium,
+enum ActionButtonSize{
   small,
+  medium,
+  large
 }
 
-// Enum para os estilos do botão
-enum ActionButtonStyle {
+enum ActionButtonStyle{
   primary,
   secondary,
-  tertiary,
+  tertiary
 }
 
-// Classe ModelView com correção no nome do construtor
 class ActionButtonViewModel {
-  final ActionButtonStyle style;
   final ActionButtonSize size;
+  final ActionButtonStyle style;
   final String text;
-  final Image? image;
+  final IconData? icon;
+  final Function() onPressed;
 
   ActionButtonViewModel({
-    required this.style,
     required this.size,
+    required this.style,
     required this.text,
-    this.image,
+    required this.onPressed,
+    this.icon
   });
 }
