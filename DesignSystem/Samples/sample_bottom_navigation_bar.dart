@@ -22,10 +22,10 @@ class _BottomNavigationScreenState extends State<BottomNavigationBarScreen> {
       size: ActionBottomBarOptionSize.medium, // Exemplo de tamanho
       style: ActionBottomNavigationBarStyle.primary, // Exemplo de estilo
       items: [
-        BottomBarItem(icon: Icons.square_rounded, label: 'label'),
-        BottomBarItem(icon: Icons.square_rounded, label: 'label'),
-        BottomBarItem(icon: Icons.square_rounded, label: 'label'),
-        BottomBarItem(icon: Icons.square_rounded, label: 'label'),
+        BottomBarItem(icon: Icons.home, label: 'Casa'),
+        BottomBarItem(icon: Icons.history, label: 'Histórico'),
+        BottomBarItem(icon: Icons.save, label: 'Salvos'),
+        BottomBarItem(icon: Icons.person, label: 'Perfil'),
       ],
       onItemSelected: (int index) {
         // Função de callback ao selecionar um item
