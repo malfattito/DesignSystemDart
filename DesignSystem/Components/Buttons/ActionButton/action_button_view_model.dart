@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-// Enum para os tamanhos do botão
 enum ActionButtonSize {
   large,
   medium,
