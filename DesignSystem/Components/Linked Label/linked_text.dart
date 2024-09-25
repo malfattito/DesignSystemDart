@@ -1,6 +1,6 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
-import 'linked_label_viewModel.dart';
+import 'linked_text_viewModel.dart';
 
 class LinkedLabel extends StatelessWidget {
   final LinkedLabelViewModel viewModel;
