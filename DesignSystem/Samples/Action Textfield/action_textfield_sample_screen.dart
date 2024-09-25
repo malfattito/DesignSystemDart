@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import '../../Components/Input/textfield.dart';
-import '../../Components/Input/textfiled_view_model.dart';
+import '../../Components/Textfield/textfield.dart';
+import '../../Components/Textfield/textfiled_view_model.dart';
 
 class ActionTextfieldSampleScreen extends StatelessWidget {
   const ActionTextfieldSampleScreen({Key? key}) : super(key: key);
