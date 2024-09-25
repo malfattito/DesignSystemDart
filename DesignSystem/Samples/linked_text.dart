@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import '../../Components/Linked Label/linked_label.dart';
-import '../../Components/Linked Label/linked_label_viewModel.dart';
+import '../../Components/Linked Label/linked_text.dart';
+import '../../Components/Linked Label/linked_text_viewModel.dart';
 
 class LinkedLabelSampleScreen extends StatelessWidget {
   const LinkedLabelSampleScreen({Key? key}) : super(key: key);
