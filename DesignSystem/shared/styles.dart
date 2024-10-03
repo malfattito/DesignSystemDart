@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:input_text/shared/colors.dart';
+import 'colors.dart';
 
 const TextStyle heading1Light = TextStyle(
   fontFamily: 'Inter',
@@ -92,7 +92,6 @@ const TextStyle label2Regular = TextStyle(
 const TextStyle label2Semibold = TextStyle(
   fontFamily: 'Inter',
   fontSize: 10,
-  height: 16,
   fontWeight: FontWeight.w600,
   color: normalPrimaryBaseColorLight,
 );
