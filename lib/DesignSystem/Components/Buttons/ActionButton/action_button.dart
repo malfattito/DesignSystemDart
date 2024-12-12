@@ -6,7 +6,7 @@ import 'package:flutter_package_1/DesignSystem/shared/styles.dart';
 class ActionButton extends StatelessWidget {
   final ActionButtonViewModel viewModel;
 
-  const ActionButton._({super.key, required this.viewModel});
+  const ActionButton._({required this.viewModel});
 
   static Widget instantiate({required ActionButtonViewModel viewModel}) {
     return ActionButton._(viewModel: viewModel);

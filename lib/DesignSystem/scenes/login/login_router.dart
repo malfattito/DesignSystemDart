@@ -1,12 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_package_1/DesignSystem/scenes/profile/profile_page.dart';
+import 'package:flutter_package_1/DesignSystem/scenes/homepage/homepage_factory.dart';
 
 class LoginRouter {
-  static void goToProfilePage(BuildContext context, Map<String, dynamic> userData) {
-    Navigator.push(
+  /// Método para navegar da página de login para a homepage
+  static void goToHomePage(BuildContext context, Map<String, dynamic> userData) {
+    Navigator.pushReplacement(
       context,
       MaterialPageRoute(
-        builder: (context) => ProfilePage.create(userData: userData),
+        builder: (context) => HomePageFactory.create(userData: userData),
       ),
     );
   }

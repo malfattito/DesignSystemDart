@@ -3,6 +3,8 @@ import '../Components/TabBar/tabbar.dart';
 import '../Components/TabBar/tabbar_view_model.dart';
 
 class TabBarSampleScreen extends StatefulWidget {
+  const TabBarSampleScreen({super.key});
+
   @override
   _TabBarSampleScreenState createState() => _TabBarSampleScreenState();
 }
@@ -30,10 +32,10 @@ class _TabBarSampleScreenState extends State<TabBarSampleScreen> {
               ),
               _onTabSelected,
             ),
-            SizedBox(height: 20),
+            const SizedBox(height: 20),
             Text(
               _selectedTabText,
-              style: TextStyle(
+              style: const TextStyle(
                 color: Colors.white,
                 fontSize: 16,
               ),

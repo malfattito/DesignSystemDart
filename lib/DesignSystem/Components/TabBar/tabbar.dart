@@ -31,7 +31,7 @@ class _CustomTabBarState extends State<CustomTabBar> {
             });
             widget.onTabSelected(index);
           },
-          child: Container(
+          child: SizedBox(
             width: MediaQuery.of(context).size.width / widget.viewModel.tabTitles.length, // Divide a largura disponível entre as abas
             child: Column(
               mainAxisSize: MainAxisSize.min,
@@ -40,14 +40,14 @@ class _CustomTabBarState extends State<CustomTabBar> {
                   widget.viewModel.tabTitles[index],
                   textAlign: TextAlign.center, // Centraliza o texto horizontalmente
                   style: TextStyle(
-                    color: isSelected ? Color(0xFFF8D247) : Colors.white,
+                    color: isSelected ? const Color(0xFFF8D247) : Colors.white,
                     fontWeight: isSelected ? FontWeight.bold : FontWeight.normal,
                   ),
                 ),
                 Container(
                   height: 4, // Mantém a altura da linha sempre, independente de estar selecionada ou não
                   width: double.infinity, // Ocupa toda a largura do espaço da aba
-                  color: isSelected ? Color(0xFFF8D247) : Colors.transparent, // Cor ou transparente
+                  color: isSelected ? const Color(0xFFF8D247) : Colors.transparent, // Cor ou transparente
                 ),
               ],
             ),

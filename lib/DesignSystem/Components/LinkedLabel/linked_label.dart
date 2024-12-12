@@ -7,7 +7,7 @@ import 'package:flutter_package_1/DesignSystem/shared/styles.dart';
 class LinkedLabel extends StatelessWidget {
   final LinkedLabelViewModel viewModel;
 
-  const LinkedLabel._({super.key, required this.viewModel});
+  const LinkedLabel._({required this.viewModel});
 
   static Widget instantiate({required LinkedLabelViewModel viewModel}) {
     return LinkedLabel._(viewModel: viewModel);
