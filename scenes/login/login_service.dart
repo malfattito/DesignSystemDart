@@ -6,7 +6,6 @@ class LoginService {
     await Future.delayed(const Duration(seconds: 2));
 
     // Aqui você pode adicionar lógica para validar o usuário e a senha
-    // Neste exemplo, vamos assumir que qualquer usuário e senha são válidos
 
     // Simula uma resposta da API com dados fictícios do usuário
     Map<String, dynamic> response = {
